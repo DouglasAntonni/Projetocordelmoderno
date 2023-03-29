@@ -40,6 +40,7 @@ header > h2{
     
 }
 section{
+    
     font-family: var(--fonte03);
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -47,18 +48,35 @@ section{
     padding-left: 30px;
     font-size: 3vw;
 }
+section > p{
+    padding-bottom: 2em;
+}
+section#img01{
+    background-position: right center;
+    background-image: url('../imagens/joaninha.jpg');
+    background-size: cover;
+}
+section#img02{
+    background-image: url('../imagens/livro.jpg');
+    background-size: cover;
+    background-position: right center;
+    
+}
 .imagem > p{
-    background-color: rgba(0, 0, 0, 0.514) ;
-    width: 400px;
+    text-shadow: 1.5px 1.5px 1px black;
+    background-color: rgba(0, 0, 0, 0.397) ;
+    width: 500px;
+    
 }
 .normal{
     background-color: white;
     color: black;
 }
 .imagem{
-    
+    box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.692);
     background-color: rgb(36, 35, 35);
     color: white;
+    background-attachment: fixed;
 }
 a{
     font-size:3vw;
